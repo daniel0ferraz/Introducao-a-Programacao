@@ -96,14 +96,17 @@ são operadores básicos, já conhecidos da Matemática, que podem ser aplicados
 Os operadores de incremento e decremento têm a finalidade de simplificar o processo de adicionar ou remover uma unidade de um determinado número. São representados pelos operadores ++ (incremento) e – (decremento).
 
 
-* Precedência de operações
+* Operadores Relacionais
 
-Ao utilizar diversos operadores em uma expressão é necessário conhecer sobre a prioridade de operações que será considerada pelo compilador. Com relação aos operadores aritméticos, a prioridade segue a considerada na matemática: primeiro as operações de multiplicação, divisão e resto e depois a soma e subtração.
+Operadores relacionais são utilizados para fazer alguma comparação entre variáveis, retornando 1 (ou valores 
+diferentes de 0) se a comparação obteve um resultado verdadeiro e 0 caso a comparação tenha obtido um 
+resultado falso.
 
-É importante ressaltar que o uso de parênteses altera a prioridade das operações. No exemplo anterior, ao usar 
-parênteses o resultado será diferente. d = (a + b) * c; // A soma será realizada antes da multiplicação. O valor de d será 12.
+* Operadores Lógicos
 
+Em programação, valores lógicos retornam verdadeiro ou falso. A linguagem C não possui um tipo de dado específico para representar os valores lógicos. Em C, o valor lógico é representado por 0 (zero) e qualquer valor diferente de zero representa o valor lógico verdadeiro. Para qualquer situação que se deseja verificar a combinação de comparações serão utilizados operadores lógicos.
 
+ESTRUTURA SEQUENCIAL
 
-
-
+Na estrutura sequencial, um conjunto predeterminado de comandos é executado de forma sequencial, seguindo a ordem em que foram declarados. Desse modo, ao escrever um programa deve-se ter bastante 
+atenção à ordem dos comandos utilizados.
